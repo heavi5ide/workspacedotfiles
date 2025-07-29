@@ -20,11 +20,11 @@
 #         # This is an ssh key that can be used to sign your commits, it should
 #         # be made available to your workspace via ssh agent forwarding and can be
 #         # seen on your laptop by issuing `git config --global user.signingkey`
-#         signingkey = <YOUR COMMIT SIGNING PUBLIC KEY>
-# [commit]
-# 	gpgsign = true
-# [gpg]
-# 	format = ssh
+        signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFyKQDeh3f7BoUleaZnPiF2eAMf/gadJlV4r4rCfefxp
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
 
 
 # This is a url rewrite that helps [go and maybe rust] tooling that downloads libraries from our private repos
